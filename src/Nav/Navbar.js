@@ -6,26 +6,34 @@ import TextsmsIcon from '@material-ui/icons/Textsms'
 import FaceIcon from '@material-ui/icons/Face'
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown'
 import IconButton from '@material-ui/core/IconButton'
+// import Home from "../Home/Home.js"
 
 function Navbar() {
     return (
-        <Wrapper>
+        // <Wrapper>
+        <NavWrapper>
         <LogoWrapper>
             <IconButton>
                <FitnessCenterIcon /> 
             </IconButton>
         </LogoWrapper>
         <HomePageButton>
-            <a href="/">HomePage</a>
+            <a href="/">Home</a>
 
         </HomePageButton>
-        <WorkoutsButton> 
-            <a href="/workouts">Workouts</a>
-        </WorkoutsButton>
-        <ExercisesButton> 
-            <a href="/exercises">Exercises</a>
-        </ExercisesButton>
-        <SearchWrapper> 
+        <AboutButton> 
+            <a href="/about">About</a>
+        </AboutButton>
+        <ServicesButton> 
+            <a href="/services">Services</a>
+        </ServicesButton>
+        <PortfolioButton> 
+            <a href="/portfolio">Portfolio</a>
+        </PortfolioButton>
+        <ContactButton> 
+            <a href="/contact">Contact</a>
+        </ContactButton>
+        {/* <SearchWrapper> 
             <SearchBarWrapper>
                 <IconButton>
                     <SearchIcon />
@@ -35,7 +43,7 @@ function Navbar() {
                     <button type="submit" ></button>
                 </form>
             </SearchBarWrapper>
-        </SearchWrapper>
+        </SearchWrapper> */}
         <IconsWrapper>
             <IconButton>
                 <TextsmsIcon />
@@ -47,16 +55,29 @@ function Navbar() {
                 <KeyboardArrowDownIcon />
             </IconButton>
         </IconsWrapper>
-    </Wrapper>
+    </NavWrapper>
+    // {/* <Home/> */}
+    // {/* </Wrapper> */}
+    
     )
 }
 
 export default Navbar
 
-const Wrapper = styled.div`
+// const Wrapper = styled.div``
+
+const NavWrapper = styled.div`
     display: flex;
     align-items: center;
     height: 56px;
+    width: 100vw;
+
+    
+  
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
     padding: 12px 4px 4px 16px;
     background-color: white;
     color: black;
@@ -85,7 +106,7 @@ const HomePageButton = styled.div`
         font-weight: 700;
     }`
 
-const WorkoutsButton = styled.div`
+const AboutButton = styled.div`
     display: flex;
     height: 48px;
     min-width: 123px;
@@ -105,7 +126,47 @@ const WorkoutsButton = styled.div`
         background-color: #e1e1e1;
     }`
 
-const ExercisesButton = styled.div`
+const ServicesButton = styled.div`
+display: flex;
+height: 48px;
+min-width: 123px;
+align-items: center;
+justify-content: center;
+border-radius: 24px;
+cursor: pointer;
+background-color: white;
+    
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+:hover {
+    background-color: #e1e1e1;
+}`
+
+const PortfolioButton = styled.div`
+display: flex;
+height: 48px;
+min-width: 123px;
+align-items: center;
+justify-content: center;
+border-radius: 24px;
+cursor: pointer;
+background-color: white;
+    
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+:hover {
+    background-color: #e1e1e1;
+}`
+
+const ContactButton = styled.div`
 display: flex;
 height: 48px;
 min-width: 123px;
