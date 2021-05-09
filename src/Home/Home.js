@@ -1,10 +1,12 @@
 import React from 'react'
 // import lolahomehero from '../public/lolahomehero.jpg'
 import styled from 'styled-components'
+import Navbar from '../Nav/Navbar.js'
 
 function Home() {
     return (
         <HeroWrapper>
+            <Navbar />
             {/* <img src={lolahomehero} alt='LolaImage' /> */}
             <HeroText>
                <h1>Designed With You In Mind</h1>
@@ -24,7 +26,7 @@ width: 100vw;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-position: relative;
+position: absolute;
 
 `
 const HeroText = styled.div`

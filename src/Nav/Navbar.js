@@ -79,7 +79,7 @@ const NavWrapper = styled.div`
   justify-content: flex-end;
 
     padding: 12px 4px 4px 16px;
-    background-color: white;
+    background-color: rgba(76, 175, 80, 0.0);
     color: black;
 `
 
@@ -98,7 +98,7 @@ const HomePageButton = styled.div`
     justify-content: center;
     border-radius: 24px;
     cursor: pointer;
-    background-color: rgb(17, 17, 17);
+    background-color:  rgba(117, 120, 116, 0.3);
         
     a {
         text-decoration: none;
@@ -114,77 +114,77 @@ const AboutButton = styled.div`
     justify-content: center;
     border-radius: 24px;
     cursor: pointer;
-    background-color: white;
+    background-color: rgba(76, 175, 80, 0.0);
         
     a {
         text-decoration: none;
-        color: black;
+        color: white;
         font-weight: 700;
     }
     
     :hover {
-        background-color: #e1e1e1;
+        background-color: #757874;
     }`
 
 const ServicesButton = styled.div`
-display: flex;
-height: 48px;
-min-width: 123px;
-align-items: center;
-justify-content: center;
-border-radius: 24px;
-cursor: pointer;
-background-color: white;
+    display: flex;
+    height: 48px;
+    min-width: 123px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    cursor: pointer;
+    background-color: rgba(76, 175, 80, 0.0);
+        
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+    }
     
-a {
-    text-decoration: none;
-    color: black;
-    font-weight: 700;
-}
-
-:hover {
-    background-color: #e1e1e1;
-}`
+    :hover {
+        background-color: #757874;
+    }`
 
 const PortfolioButton = styled.div`
-display: flex;
-height: 48px;
-min-width: 123px;
-align-items: center;
-justify-content: center;
-border-radius: 24px;
-cursor: pointer;
-background-color: white;
+    display: flex;
+    height: 48px;
+    min-width: 123px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    cursor: pointer;
+    background-color: rgba(76, 175, 80, 0.0);
+        
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+    }
     
-a {
-    text-decoration: none;
-    color: black;
-    font-weight: 700;
-}
-
-:hover {
-    background-color: #e1e1e1;
-}`
+    :hover {
+        background-color: #757874;
+    }`
 
 const ContactButton = styled.div`
-display: flex;
-height: 48px;
-min-width: 123px;
-align-items: center;
-justify-content: center;
-border-radius: 24px;
-cursor: pointer;
-background-color: white;
+    display: flex;
+    height: 48px;
+    min-width: 123px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    cursor: pointer;
+    background-color: rgba(76, 175, 80, 0.0);
+        
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+    }
     
-a {
-    text-decoration: none;
-    color: black;
-    font-weight: 700;
-}
-
-:hover {
-    background-color: #e1e1e1;
-}`
+    :hover {
+        background-color: #757874;
+    }`
 
 const SearchWrapper = styled.div`
     flex: 1;
